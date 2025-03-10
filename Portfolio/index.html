@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My portfolio website showcasing my projects, skills, and contact information.">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header role="navigation">
+        <nav>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>Hi, I'm Srajan, a passionate web developer with a strong focus on front-end development. I love creating user-friendly and visually appealing websites that are also responsive and performant. Here, you'll find a few of my recent projects and skills.</p>
+    </section>
+
+    
+    <section id="projects">
+        <h2>My Projects</h2>
+
+       
+        <article>
+            <figure>
+                <img src="project1.jpg" alt="Screenshot of Project 1" />
+                <figcaption>Project 1 : A Responsive Website</figcaption>
+            </figure>
+            <p>This project involved creating a responsive website using HTML, CSS, and JavaScript.</p>
+        </article>
+
+        
+        <article>
+            <figure>
+                <img src="project2.jpg" alt="Screenshot of Project 2" />
+                <figcaption>Project 2 : E-commerce Platform</figcaption>
+            </figure>
+            <p>An e-commerce platform built with React and Node.js, featuring user authentication and payment processing.</p>
+        </article>
+
+    </section>
+
+   
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+   
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Srajan. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
